@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[STMT]]></title><description><![CDATA[Blog about Six Things Must To Do application]]></description><link>https://6-things-must-to-do.github.io/docs</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 06 Nov 2020 12:38:48 GMT</lastBuildDate><item><title><![CDATA[Six Things Must To Do]]></title><description><![CDATA[About STMT Six Things Must To Do is application for manage effective daily routine using Ivy Lee Method. Group Member…]]></description><link>https://6-things-must-to-do.github.io/docs/about/</link><guid isPermaLink="false">https://6-things-must-to-do.github.io/docs/about/</guid><pubDate>Fri, 06 Nov 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;About STMT&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[STMT]]></title><description><![CDATA[Blog about Six Things Must To Do application]]></description><link>https://6-things-must-to-do.github.io/docs</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 06 Nov 2020 12:40:48 GMT</lastBuildDate><item><title><![CDATA[Six Things Must To Do]]></title><description><![CDATA[About STMT Six Things Must To Do is application for manage effective daily routine using Ivy Lee Method. Group Member…]]></description><link>https://6-things-must-to-do.github.io/docs/about/</link><guid isPermaLink="false">https://6-things-must-to-do.github.io/docs/about/</guid><pubDate>Fri, 06 Nov 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;About STMT&lt;/h1&gt;
 &lt;p&gt;Six Things Must To Do is application for manage effective daily routine using &lt;a href=&quot;https://jamesclear.com/ivy-lee&quot;&gt;Ivy Lee Method&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Group Member&lt;/h2&gt;
 &lt;ul&gt;
@@ -21,7 +21,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/9c6eb7548072c9700037749cad7dc6b9/acb04/sixthingslogo.jpg&quot;
+    href=&quot;/docs/static/9c6eb7548072c9700037749cad7dc6b9/acb04/sixthingslogo.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -34,11 +34,11 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;sixthings logo&quot;
         title=&quot;sixthings logo&quot;
-        src=&quot;/static/9c6eb7548072c9700037749cad7dc6b9/828fb/sixthingslogo.jpg&quot;
-        srcset=&quot;/static/9c6eb7548072c9700037749cad7dc6b9/ff44c/sixthingslogo.jpg 158w,
-/static/9c6eb7548072c9700037749cad7dc6b9/a6688/sixthingslogo.jpg 315w,
-/static/9c6eb7548072c9700037749cad7dc6b9/828fb/sixthingslogo.jpg 630w,
-/static/9c6eb7548072c9700037749cad7dc6b9/acb04/sixthingslogo.jpg 750w&quot;
+        src=&quot;/docs/static/9c6eb7548072c9700037749cad7dc6b9/828fb/sixthingslogo.jpg&quot;
+        srcset=&quot;/docs/static/9c6eb7548072c9700037749cad7dc6b9/ff44c/sixthingslogo.jpg 158w,
+/docs/static/9c6eb7548072c9700037749cad7dc6b9/a6688/sixthingslogo.jpg 315w,
+/docs/static/9c6eb7548072c9700037749cad7dc6b9/828fb/sixthingslogo.jpg 630w,
+/docs/static/9c6eb7548072c9700037749cad7dc6b9/acb04/sixthingslogo.jpg 750w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -53,7 +53,7 @@ On the other hand, our app not only stores past schedules on a daily basis, but 
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/c386747027e857c217c1d67189f4e6a0/644c5/sixthings.jpg&quot;
+    href=&quot;/docs/static/c386747027e857c217c1d67189f4e6a0/644c5/sixthings.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -66,13 +66,13 @@ On the other hand, our app not only stores past schedules on a daily basis, but 
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;sixthings app&quot;
         title=&quot;sixthings app&quot;
-        src=&quot;/static/c386747027e857c217c1d67189f4e6a0/828fb/sixthings.jpg&quot;
-        srcset=&quot;/static/c386747027e857c217c1d67189f4e6a0/ff44c/sixthings.jpg 158w,
-/static/c386747027e857c217c1d67189f4e6a0/a6688/sixthings.jpg 315w,
-/static/c386747027e857c217c1d67189f4e6a0/828fb/sixthings.jpg 630w,
-/static/c386747027e857c217c1d67189f4e6a0/0ede0/sixthings.jpg 945w,
-/static/c386747027e857c217c1d67189f4e6a0/3ac88/sixthings.jpg 1260w,
-/static/c386747027e857c217c1d67189f4e6a0/644c5/sixthings.jpg 1440w&quot;
+        src=&quot;/docs/static/c386747027e857c217c1d67189f4e6a0/828fb/sixthings.jpg&quot;
+        srcset=&quot;/docs/static/c386747027e857c217c1d67189f4e6a0/ff44c/sixthings.jpg 158w,
+/docs/static/c386747027e857c217c1d67189f4e6a0/a6688/sixthings.jpg 315w,
+/docs/static/c386747027e857c217c1d67189f4e6a0/828fb/sixthings.jpg 630w,
+/docs/static/c386747027e857c217c1d67189f4e6a0/0ede0/sixthings.jpg 945w,
+/docs/static/c386747027e857c217c1d67189f4e6a0/3ac88/sixthings.jpg 1260w,
+/docs/static/c386747027e857c217c1d67189f4e6a0/644c5/sixthings.jpg 1440w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -86,7 +86,7 @@ On the other hand, our app not only stores past schedules on a daily basis, but 
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/9f8fc7d9960cdceee4aa0a6cac6c377a/644c5/ivylogo.jpg&quot;
+    href=&quot;/docs/static/9f8fc7d9960cdceee4aa0a6cac6c377a/644c5/ivylogo.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -99,13 +99,13 @@ On the other hand, our app not only stores past schedules on a daily basis, but 
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;ivy logo&quot;
         title=&quot;ivy logo&quot;
-        src=&quot;/static/9f8fc7d9960cdceee4aa0a6cac6c377a/828fb/ivylogo.jpg&quot;
-        srcset=&quot;/static/9f8fc7d9960cdceee4aa0a6cac6c377a/ff44c/ivylogo.jpg 158w,
-/static/9f8fc7d9960cdceee4aa0a6cac6c377a/a6688/ivylogo.jpg 315w,
-/static/9f8fc7d9960cdceee4aa0a6cac6c377a/828fb/ivylogo.jpg 630w,
-/static/9f8fc7d9960cdceee4aa0a6cac6c377a/0ede0/ivylogo.jpg 945w,
-/static/9f8fc7d9960cdceee4aa0a6cac6c377a/3ac88/ivylogo.jpg 1260w,
-/static/9f8fc7d9960cdceee4aa0a6cac6c377a/644c5/ivylogo.jpg 1440w&quot;
+        src=&quot;/docs/static/9f8fc7d9960cdceee4aa0a6cac6c377a/828fb/ivylogo.jpg&quot;
+        srcset=&quot;/docs/static/9f8fc7d9960cdceee4aa0a6cac6c377a/ff44c/ivylogo.jpg 158w,
+/docs/static/9f8fc7d9960cdceee4aa0a6cac6c377a/a6688/ivylogo.jpg 315w,
+/docs/static/9f8fc7d9960cdceee4aa0a6cac6c377a/828fb/ivylogo.jpg 630w,
+/docs/static/9f8fc7d9960cdceee4aa0a6cac6c377a/0ede0/ivylogo.jpg 945w,
+/docs/static/9f8fc7d9960cdceee4aa0a6cac6c377a/3ac88/ivylogo.jpg 1260w,
+/docs/static/9f8fc7d9960cdceee4aa0a6cac6c377a/644c5/ivylogo.jpg 1440w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -119,7 +119,7 @@ On the other hand, our app not only stores past schedules on a daily basis, but 
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/64442c0d9c24959f8c4bc6f751d69f4e/2c3a2/ivy.jpg&quot;
+    href=&quot;/docs/static/64442c0d9c24959f8c4bc6f751d69f4e/2c3a2/ivy.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -132,13 +132,13 @@ On the other hand, our app not only stores past schedules on a daily basis, but 
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;ivy app&quot;
         title=&quot;ivy app&quot;
-        src=&quot;/static/64442c0d9c24959f8c4bc6f751d69f4e/828fb/ivy.jpg&quot;
-        srcset=&quot;/static/64442c0d9c24959f8c4bc6f751d69f4e/ff44c/ivy.jpg 158w,
-/static/64442c0d9c24959f8c4bc6f751d69f4e/a6688/ivy.jpg 315w,
-/static/64442c0d9c24959f8c4bc6f751d69f4e/828fb/ivy.jpg 630w,
-/static/64442c0d9c24959f8c4bc6f751d69f4e/0ede0/ivy.jpg 945w,
-/static/64442c0d9c24959f8c4bc6f751d69f4e/3ac88/ivy.jpg 1260w,
-/static/64442c0d9c24959f8c4bc6f751d69f4e/2c3a2/ivy.jpg 1402w&quot;
+        src=&quot;/docs/static/64442c0d9c24959f8c4bc6f751d69f4e/828fb/ivy.jpg&quot;
+        srcset=&quot;/docs/static/64442c0d9c24959f8c4bc6f751d69f4e/ff44c/ivy.jpg 158w,
+/docs/static/64442c0d9c24959f8c4bc6f751d69f4e/a6688/ivy.jpg 315w,
+/docs/static/64442c0d9c24959f8c4bc6f751d69f4e/828fb/ivy.jpg 630w,
+/docs/static/64442c0d9c24959f8c4bc6f751d69f4e/0ede0/ivy.jpg 945w,
+/docs/static/64442c0d9c24959f8c4bc6f751d69f4e/3ac88/ivy.jpg 1260w,
+/docs/static/64442c0d9c24959f8c4bc6f751d69f4e/2c3a2/ivy.jpg 1402w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
