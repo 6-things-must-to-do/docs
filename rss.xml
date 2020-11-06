@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[STMT]]></title><description><![CDATA[Blog about Six Things Must To Do application]]></description><link>https://6-things-must-to-do.github.io/docs</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 05 Nov 2020 05:57:56 GMT</lastBuildDate><item><title><![CDATA[Six Things Must To Do]]></title><description><![CDATA[About STMT Six Things Must To Do is application for manage effective daily routine using Ivy Lee Method. Group Member…]]></description><link>https://6-things-must-to-do.github.io/docs/about/</link><guid isPermaLink="false">https://6-things-must-to-do.github.io/docs/about/</guid><pubDate>Thu, 05 Nov 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;About STMT&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[STMT]]></title><description><![CDATA[Blog about Six Things Must To Do application]]></description><link>https://6-things-must-to-do.github.io/docs</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 06 Nov 2020 12:38:48 GMT</lastBuildDate><item><title><![CDATA[Six Things Must To Do]]></title><description><![CDATA[About STMT Six Things Must To Do is application for manage effective daily routine using Ivy Lee Method. Group Member…]]></description><link>https://6-things-must-to-do.github.io/docs/about/</link><guid isPermaLink="false">https://6-things-must-to-do.github.io/docs/about/</guid><pubDate>Fri, 06 Nov 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;About STMT&lt;/h1&gt;
 &lt;p&gt;Six Things Must To Do is application for manage effective daily routine using &lt;a href=&quot;https://jamesclear.com/ivy-lee&quot;&gt;Ivy Lee Method&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Group Member&lt;/h2&gt;
 &lt;ul&gt;
@@ -7,6 +7,141 @@
 &lt;li&gt;한양대학교 정보시스템학과 김은채 eunchai512@naver.com&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Proposal&lt;/h2&gt;
-&lt;p&gt;Proposal&lt;/p&gt;
+&lt;p&gt;More and more people are complaining of difficulties in managing their time as the recent unprecedented situation of Corona-19 has limited outside activities and increased freedom of work. As work spaces and daily spaces become one, one is often interrupted by another.&lt;/p&gt;
+&lt;p&gt;Because human attraction and working memory are limited, it is virtually impossible to do multiple tasks at once. Therefore, doing a lot of multitasking means that self-interruptions and voluntary switching of tasks are often repeated. A study conducted in 2009 at the National Academy of Sciences of the United States shows that doing a lot of multitasking does not help the ability to switch tasks, but rather has a negative correlation.[*]&lt;/p&gt;
+&lt;p&gt;Ivy Lee method defines six things to do during working hours and forces the sequence of work to be done, making the routine a single task, not a multi-task. Our app makes it easy for people to apply and practice the Ivy Lee method. By taking advantage of this, people will be able to propose and practice ways to improve time efficiency beyond mannerism in their daily lives.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[*] Eyal Ophir, Clifford Nass, Anthony D. Wagner and Michael I. Posner (2009). Cognitive control in media multitaskers, Proceedings of the National Academy of Sciences of the United States of America, 106, 15583-15587.&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2&gt;Related works &amp;#x26; tools&lt;/h2&gt;
-&lt;p&gt;Related works &amp;#x26; tools&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;Efforts to manage time or organize to-do lists are old and countless apps and programs already exist. However, we have found that there are not many cases where specific management techniques have been applied, such as 6 things must to do, and in particular, the software used by actual users in the Ivy Lee method seems to be ‘6things’, ‘Ivy: Tasks &amp;#x26; To-Do list, organize your life’.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9c6eb7548072c9700037749cad7dc6b9/acb04/sixthingslogo.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 31.645569620253163%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAGABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIB/8QAFwEAAwEAAAAAAAAAAAAAAAAAAAECBf/aAAwDAQACEAMQAAABmSNPAP8A/8QAFhABAQEAAAAAAAAAAAAAAAAAAQIQ/9oACAEBAAEFApZN/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFxABAAMAAAAAAAAAAAAAAAAAARAREv/aAAgBAQAGPwJ0XP8A/8QAGhAAAgIDAAAAAAAAAAAAAAAAASEAEBFRYf/aAAgBAQABPyFgMguGLVf/2gAMAwEAAgADAAAAEAgf/8QAFxEAAwEAAAAAAAAAAAAAAAAAARARIf/aAAgBAwEBPxCaV//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABsQAAIBBQAAAAAAAAAAAAAAAAERABAxUWGR/9oACAEBAAE/EAFiClbI83af/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;sixthings logo&quot;
+        title=&quot;sixthings logo&quot;
+        src=&quot;/static/9c6eb7548072c9700037749cad7dc6b9/828fb/sixthingslogo.jpg&quot;
+        srcset=&quot;/static/9c6eb7548072c9700037749cad7dc6b9/ff44c/sixthingslogo.jpg 158w,
+/static/9c6eb7548072c9700037749cad7dc6b9/a6688/sixthingslogo.jpg 315w,
+/static/9c6eb7548072c9700037749cad7dc6b9/828fb/sixthingslogo.jpg 630w,
+/static/9c6eb7548072c9700037749cad7dc6b9/acb04/sixthingslogo.jpg 750w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;6tings is an iOS app with Ivy Lee method and features a simple and clear interface. Each day, the user organizes six things to do before and after bed and prioritizes them according to their importance. Although the app is very faithful to the Ivy Lee method, there were inconveniences such as not having a separate storage function and not being able to see the completed work again. There was also a problem that they could not provide time to look back on whether they had followed the Ivy Lee method well.
+On the other hand, our app not only stores past schedules on a daily basis, but also provides a dashboard of performance.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c386747027e857c217c1d67189f4e6a0/644c5/sixthings.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 89.24050632911393%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAASABQDASIAAhEBAxEB/8QAGQABAQADAQAAAAAAAAAAAAAAAAECAwQF/8QAFwEBAQEBAAAAAAAAAAAAAAAABAECA//aAAwDAQACEAMQAAAB8uW9LEZnRoEqwBC//8QAGhAAAAcAAAAAAAAAAAAAAAAAAAECEBIgMf/aAAgBAQABBQJonVWj/8QAFxEBAAMAAAAAAAAAAAAAAAAAEAMRMv/aAAgBAwEBPwGibJ//xAAaEQACAgMAAAAAAAAAAAAAAAAAAQIDEBIy/9oACAECAQE/AXKRsy/nH//EABYQAAMAAAAAAAAAAAAAAAAAABAgMf/aAAgBAQAGPwIR/wD/xAAdEAACAgEFAAAAAAAAAAAAAAABEQAQITFBUYGR/9oACAEBAAE/IXFunAQMAuoQeIRjIntatf/aAAwDAQACAAMAAAAQq8A8/8QAFxEBAQEBAAAAAAAAAAAAAAAAARAxcf/aAAgBAwEBPxBRpMOz/8QAGxEAAQQDAAAAAAAAAAAAAAAAAAEQESExYXH/2gAIAQIBAT8Qj2ptMHW//8QAHxABAAIBAwUAAAAAAAAAAAAAAQAhESAxQVFhcZHB/9oACAEBAAE/EFAnXeLzWu4MN5FtY+y1b1ALGfMw8GHFuhf/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;sixthings app&quot;
+        title=&quot;sixthings app&quot;
+        src=&quot;/static/c386747027e857c217c1d67189f4e6a0/828fb/sixthings.jpg&quot;
+        srcset=&quot;/static/c386747027e857c217c1d67189f4e6a0/ff44c/sixthings.jpg 158w,
+/static/c386747027e857c217c1d67189f4e6a0/a6688/sixthings.jpg 315w,
+/static/c386747027e857c217c1d67189f4e6a0/828fb/sixthings.jpg 630w,
+/static/c386747027e857c217c1d67189f4e6a0/0ede0/sixthings.jpg 945w,
+/static/c386747027e857c217c1d67189f4e6a0/3ac88/sixthings.jpg 1260w,
+/static/c386747027e857c217c1d67189f4e6a0/644c5/sixthings.jpg 1440w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9f8fc7d9960cdceee4aa0a6cac6c377a/644c5/ivylogo.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 35.44303797468354%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAIF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAABybCQf//EABkQAAEFAAAAAAAAAAAAAAAAAAEAAhEhMf/aAAgBAQABBQIQm4Tf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhABAQEAAAAAAAAAAAAAAAAAAEEh/9oACAEBAAY/AtRH/8QAGRAAAwEBAQAAAAAAAAAAAAAAAAERQYHR/9oACAEBAAE/IY103iI90Ixwj//aAAwDAQACAAMAAAAQe+//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/ED//xAAWEQADAAAAAAAAAAAAAAAAAAAQEUH/2gAIAQIBAT8QcH//xAAbEAEAAgIDAAAAAAAAAAAAAAABABEhMYGRof/aAAgBAQABPxCp1AczbUtpnXyXgOGLQuf/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ivy logo&quot;
+        title=&quot;ivy logo&quot;
+        src=&quot;/static/9f8fc7d9960cdceee4aa0a6cac6c377a/828fb/ivylogo.jpg&quot;
+        srcset=&quot;/static/9f8fc7d9960cdceee4aa0a6cac6c377a/ff44c/ivylogo.jpg 158w,
+/static/9f8fc7d9960cdceee4aa0a6cac6c377a/a6688/ivylogo.jpg 315w,
+/static/9f8fc7d9960cdceee4aa0a6cac6c377a/828fb/ivylogo.jpg 630w,
+/static/9f8fc7d9960cdceee4aa0a6cac6c377a/0ede0/ivylogo.jpg 945w,
+/static/9f8fc7d9960cdceee4aa0a6cac6c377a/3ac88/ivylogo.jpg 1260w,
+/static/9f8fc7d9960cdceee4aa0a6cac6c377a/644c5/ivylogo.jpg 1440w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Ivy: Tasks &amp;#x26; To-Do list, Organize your life (Ivy) are also mobile applications based on Ivy lee method. Unlike 6things, Ivy can see the completed items. The biggest feature of Ivy is that it can be divided into categories. Users can set priorities by category, and completed items are also sorted in a row by category. Categories may be convenient in that they can organize their work according to the situation, but in the end it goes against the Ivy Lee &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/64442c0d9c24959f8c4bc6f751d69f4e/2c3a2/ivy.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 102.53164556962024%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAVABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHk5bQS0LhZZIj/xAAZEAEAAwEBAAAAAAAAAAAAAAAAARESIkH/2gAIAQEAAQUCSqXiaalfOn//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAEDAQE/AR//xAAXEQADAQAAAAAAAAAAAAAAAAAAARAS/9oACAECAQE/ATTFP//EABkQAAIDAQAAAAAAAAAAAAAAABAxABFBkf/aAAgBAQAGPwJRBjOix//EABwQAAMAAwADAAAAAAAAAAAAAAABETFBURBhkf/aAAgBAQABPyFpCh1pE3bh6Uydz9Mc18CvdR3D/9oADAMBAAIAAwAAABBz34D/xAAXEQADAQAAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/EDFf/8QAGBEAAwEBAAAAAAAAAAAAAAAAARARITH/2gAIAQIBAT8QBnEaq//EAB4QAQEAAgICAwAAAAAAAAAAAAERADEhQXGRUaGx/9oACAEBAAE/EAlFZBusSUKB2GMhApS/GVCDuPt1hqHboH1gD5CN59YE0efBm5i55CfmNoRCPO8//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;ivy app&quot;
+        title=&quot;ivy app&quot;
+        src=&quot;/static/64442c0d9c24959f8c4bc6f751d69f4e/828fb/ivy.jpg&quot;
+        srcset=&quot;/static/64442c0d9c24959f8c4bc6f751d69f4e/ff44c/ivy.jpg 158w,
+/static/64442c0d9c24959f8c4bc6f751d69f4e/a6688/ivy.jpg 315w,
+/static/64442c0d9c24959f8c4bc6f751d69f4e/828fb/ivy.jpg 630w,
+/static/64442c0d9c24959f8c4bc6f751d69f4e/0ede0/ivy.jpg 945w,
+/static/64442c0d9c24959f8c4bc6f751d69f4e/3ac88/ivy.jpg 1260w,
+/static/64442c0d9c24959f8c4bc6f751d69f4e/2c3a2/ivy.jpg 1402w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
