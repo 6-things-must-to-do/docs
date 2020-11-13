@@ -91,7 +91,7 @@ The most complete application derived from the existing Ivy Lee Method was the a
 Mobile applications will be used by users. Both Android and iOS are available. Cross Platform applications to communicate with the server is required. There will be five four functions(login, task list, dashboard, social) in the application.\\
 
 \begin{enumerate}
-    \item Login: Users only use social login. So there are no local application login form. And there are no signup screen because the application will use the information which is from social login. There will be only simple login screen.
+    \item Login: Users only use social login. So there are no local application login form. And there are no sign-up screen because the application will use the information which is from social login. There will be only simple login screen.
     \begin{enumerate}
         \item Additional information screen: Social login might give email and unique app id value. But if user refuses to provide an email and the user is new client, the user should type email manually for using application.\\
     \end{enumerate}
@@ -108,13 +108,16 @@ Mobile applications will be used by users. Both Android and iOS are available. C
         \begin{enumerate}
             \item Read task list of specific date: In this screen, the component shows the list of tasks. It is default screen of task list component.
             \item Add task: In task list screen, user can add task for next day (or next session of task list). The added task is consist of task component.
-            \item Start tasks and lock the list: When user click lock button, the list become uneditable except complete the task. Lock time is set by user in setting screen.
+            \item Start tasks and lock the list: When user click lock button, the list become uneditable except complete the task. Lock time is set by user in settings screen.
             \item Check ongoing task and complete the task: When the task list is locked, user can find what task should be handled, and check the task as complete. If the task has specific to-do list, and user check the task as complete, all to-dos in the task is also checked as complete.
             \item Pass the remain incomplete tasks to next task list: When the session (user-set lock time) is over, and the list has remain tasks, The remaining list goes into the next (session's) task list.\\
         \end{enumerate}
+        \item Dashboard: User can check the usage of the application in this component. There are graph for visualizing monthly, weekly, daily task processing degree. And also check the list of the specific date.\\
     \end{enumerate}
-    \item Setting: User can set the option of the application. They can adjust alarm, Task list session time (Lock time), and change their account information in this component.\\
-    \item Dashboard: User can check the usage of the application in this component. There are graph for visualizing monthly, weekly, daily task processing degree. And also check the list of the specific date.\\
+    
+    \item Social: Users can find their own ranks on the list. The list shows the ranking of the users' friends or the world ranking, which is a ranking of every user who uses our app. It can add new friends to the list and share users' results of six tasks to the others. Also, search for other users and look for their result is available. \\
+    \item Settings: User can set the option of the application. They can adjust alarm, Task list session time (Lock time), and change their account information in this component.\\
+
 \end{enumerate}
 
 \subsection{NUGU Service}
@@ -134,18 +137,18 @@ Also, user can access the application through NUGU AI speaker. User speak specif
 
 \begin{enumerate}
     \item Which platform and why \\
-    Our service operates mainly on mobile applications. We use Cross Platform application that is available for both Android and iOS operating systems and we develop app focusing on the mobile OS latest version due to development environmental limitations (React Native limitations) and time constraints. We are using React Native since it can develop both platforms. The reason why we choice mobile application based, not the web, is that it needs to have easy access to the tasks and provide alarm service to the specific ones. \\
+    Our service operates mainly on mobile applications. We use Cross Platform application that is available for both Android and iOS operating systems and we develop app focusing on the latest version due to development environmental limitations and time constraints. We are using React Native since it can develop both platforms. Our app is an app service based, not the web, because it needs to have easy access to the tasks and provide alarm service to the specific ones. \\
     
-    The server application will work on work on Linux based Lambda of AWS. And use AWS DynamoDB as database. Lambda and DynamoDB can save the cost when build simple applications because of its generous free tier. \\
+    The server application will work on Linux based Lambda of AWS. DynamoDB on AWS will be used for database. Lambda and DynamoDB can save the cost while building simple applications because of its generous free tier. \\
     
-    And we do not have to worry about infrastructure and can focus on server application logic when we use managed services of AWS like DynamoDB and Lambda. In addition, we thought that golang is a suitable language to operate in Lambda system since it remains simple executable binary after compilation and does not have to run virtual machine like JVM.\\
+    We do not have to worry about infrastructure and can focus on server application logic when we use managed services of AWS like DynamoDB and Lambda. In addition, we think that golang is a suitable language to operate in Lambda system since it remains simple executable binary after compilation and does not have to run virtual machine like JVM.\\
     
     \item Which programming language and why
     \begin{enumerate}
         \item Typescript \\
-        Typescript, Javascript's superset, provides more stable development environment. By defining the interface and types, errors caused by misusing the type are prevented in advance. It can also easily identify the specific way of using methods and functions. In addition to the above advantages, it is freely available to use the large opensource system of JavaScript.\\
+        Typescript, Javascript's superset, provides more stable development environment. By defining the interface and types, errors caused by misusing the type are prevented in advance. It can also easily identify the specific way of using methods and functions. In addition to the above advantages, it is freely available to use the large open source system of JavaScript.\\
         \item Go \\
-        Go language is a compile language, that has fast performance as C language. There is no complicated grammar, and by unifying some of the code styles, it reduces the concern about the convention. By consuming computing power efficiently, relatively little computing resources are required to achieve the same goal as other languages.\\
+        Go language is a compile language, that has fast performance as C language. There is no complicated grammar, and by unifying some of the code styles, it reduces the concern about the convention. By using the computing power efficiently, relatively little computing resources are required to achieve the same goal as other languages.\\
         
         \item Finally, both languages are growing rapidly in terms of language utilization, especially typescript is becoming the standard for JS development environments. Golang also has a huge growing community and is in line with recent technology trends.\\
     \end{enumerate}
@@ -196,7 +199,7 @@ Also, user can access the application through NUGU AI speaker. User speak specif
     \end{itemize}
     \item Using any commercial cloud platform \\
     
-    AWS Lambda and DynamoDB will be used to launch production servers.  Computing and Database resources are same the information written above, and AWS API Gateway service will be used to proxy HTTP requests to Lambda. \\
+    AWS Lambda and DynamoDB will be used to launch production servers.  Computing and Database resources are the same information written above, and AWS API Gateway service will be used to proxy HTTP requests to Lambda. \\
     
 \end{enumerate}
 
@@ -222,7 +225,7 @@ Also, user can access the application through NUGU AI speaker. User speak specif
     Typescript is superset of javascript. Javascript is not type-safety language, so using javascript in huge project can make dangerous bug. Typescript can be used in javascript project, and also only typescript project. It is opensource and has huge engineer commnunity and maintained by Microsoft. \\
     
     \item React Native \\
-    React Native is framework for mobile cross platform. This framework is created by Facebook. It works on Typescript and Javascript environment. TS/JS code create Native code which is written in JAVA (Android) and Objective-C(iOS)
+    React Native is framework for mobile cross platform. This framework is created by Facebook. It works on Typescript and Javascript environment. TS/JS code create Native code which is written in JAVA (Android) and Objective-C(iOS).
     
 \end{enumerate}
 
@@ -246,13 +249,16 @@ Eunchai Kim & Align the received data and design UI and CSS (Screen) \\
 \end{center}
 \end{table}
 
-Our roles were distributed by technology rather than by app function. Our app has multiple functions, and we tried to divide the roles by the functions (ex. Making tasks/ Managing tasks/ Adding friends). However, we found out this method is inefficient, and it would be difficult to complete the project if we proceed it in this way. It is because we realized that it is almost impossible to learn all the different skills to create a single function in time. Therefore, we end it up decided to divide the tasks by component of the app rather than the function, and let each person take charge of it. \\
+Our roles were distributed by technology rather than by app function. Our app has multiple functions, and we tried to divide the roles by the functions (ex. Making tasks/ Managing tasks/ Adding friends). However, we found out this method is inefficient, and it would be difficult to complete the project if we proceed it this way. It is because we realized that it is almost impossible to learn all the different skills to create a single function in time. Therefore, we eventually decided to divide the tasks by component of the app rather than the function, and let each person take charge of it. \\
 
 \section{Specifications}
 \subsection{Mobile Application}
 
+\begin{figure}[htp] \centering \includegraphics[width=120pt]{mockup_login} \caption{Login Screen} \label{fig:login} \end{figure}
+
 \begin{enumerate}
-    \item Login: Our application has only Google login. There are no other process for sign up or sign in. Social login provide email, unique app Id, etc. Using this information, application get token from api server, and save it in the device local storage. In server, take social account information and get user data in DynamoDB or create user, and then create JWT which is used when user access api service.
+    \item Login: \\
+    Our application only has Google login. There are no other processes for signing up or signing in. Social login provides email, and unique app Id, etc. Using this information, application gets token from api server, and saves it in the device local storage. In the server, it takes social account information and gets user data in DynamoDB or creates user, then JWT which is to be used when user accesses api service.
     \begin{lstlisting}[frame=single]
     # in Application
     socialAccount := googlaLogin()
@@ -267,17 +273,25 @@ Our roles were distributed by technology rather than by app function. Our app ha
     token := issueToken(user)
     response(token)
     \end{lstlisting}
-
-    \item Navigation tab: \\ Navigation tab on the bottom of screen is provided by opensource named React Navigation. And there is no other Network I/O
+ 
+\begin{figure}[htp] \centering \includegraphics[width=120pt]{2) Navigation bar.PNG} \caption{Navigation tab} \label{fig:Navigation tab} \end{figure}
+   
+    \item Navigation tab: \\ 
+    Navigation tab on the bottom of the screen includes social, tasks, settings tabs and is provided by open source named React Navigation. There is no other Network I/O.
     \begin{lstlisting}[frame=single]
     onChangeTab(targetScreen) {
         currentScreen = targetScreen
         re-render()
     }
     \end{lstlisting}
-    \item Tasks (Main Screen): In main screen, authentication is required. Token should be stored in local storage and used when call API server service.
+    
+\begin{figure}[htp] \centering \includegraphics[width=270pt]{3) Tasks.jpg} \caption{Tasks (Main Screen)} \label{fig:Tasks} \end{figure}  
+    
+    \item Tasks (Main Screen): \\
+    In main screen, authentication is required. Token should be stored in local storage and be used when calling API server service. User can click on the chart button to see their dashboard. Lock button on the right is a button to freeze the tasks and user can adjust the lock time in the settings. Details can be set when the user presses the tasks.
     \begin{enumerate}
-        \item One task component: In task component, there are details of specific task. For showing the detail, API call is required. And in application, there are global store for saving data state. All data is stored in one global redux store, and it is only updated by dispatch function.
+        \item One task component: \\
+        In a task component, there are details of a specific task. For showing the detail, API call is required. And in application, there is global store for saving data state. All the data is stored in one global Redux store, and it is only updated by dispatch function.
     \begin{lstlisting}[frame=single]
     # in Application
     data := apiCall(type, taskID)
@@ -294,10 +308,27 @@ Our roles were distributed by technology rather than by app function. Our app ha
     # CRUD of task detail
     \end{lstlisting}
         \item Task list component: \\
-        Task list component data are also managed by Redux store. All API call and result update the store through redux's dispatch function like above.
-    \end{enumerate}
-    \item Setting: \\
-    In setting screen, there are features about alarm, updating user information, setting task session time. All but updating user information use local device's options. Alarm and task session time use device's timer API. And updating user information use API call.
+        Task list component data is also managed by Redux store. All the API call and the result are being updated to the store through redux's dispatch function like above.
+
+        \item Dashboard: \\
+        The application should be able to get the log of user's usage by period. Data is stored in DynamoDB, so API call is required. And also the data is managed by redux.
+    \begin{lstlisting}[frame=single]
+    # in Application
+    data := getLogOf["weekly"]()
+    dispatch(updateDashboard(data))
+        .then(re-render())
+    \end{lstlisting}
+\end{enumerate}
+    
+\begin{figure}[htp] \centering \includegraphics[width=120pt]{4) Social.PNG} \caption{Social} \label{fig:Social} \end{figure}
+    
+    \item Social: \\
+    Friend list comes out when the user clicks the bottom social navigation tab. It shows the list of user's friends and at the same time, the ranking. Users can select to see the ranking of their friends or the world by pressing the ranking button. They can also add friends through the add button, and share the result through the share button. It is available to search the specific user, be friends and check the result of their six tasks.
+    
+\begin{figure}[htp] \centering \includegraphics[width=300pt]{5) Settings.PNG} \caption{Settings} \label{fig:Settings} \end{figure}    
+    
+    \item Settings: \\
+    In the settings screen, there are features about updating user information, and setting task related settings. Task related settings use local device's options. Alarm and task session time use device's timer API and updating user information uses API call.
     \begin{lstlisting}[frame=single]
     # lock session time
     default = 8 * HOUR
@@ -316,19 +347,12 @@ Our roles were distributed by technology rather than by app function. Our app ha
     # update user info
     apiCall(updateData)
     \end{lstlisting}
-    \item Dashboard: \\
-    In this component, the application should be able to get the log of user's usage by period. Data is stored in DynamoDB, so API call is required. And also the data is managed by redux.
-    \begin{lstlisting}[frame=single]
-    # in Application
-    data := getLogOf["weekly"]()
-    dispatch(updateDashboard(data))
-        .then(re-render())
-    \end{lstlisting}
+
 \end{enumerate}
 
 \subsection{NUGU Service}
 
-Every utterance command is sended to processing backend server through NUGU SDK. NUGU SDK process the voice to string. And Backend proxy server change the string to valid command form and send it to the api server.
+Every utterance command is sent to processing backend server through NUGU SDK. NUGU SDK processes the voice to string. And backend proxy server changes the string to valid command form and send it to the api server.
 
 \begin{lstlisting}[frame=single]
 voice > NUGU SDK > Processed voice string
