@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[STMT]]></title><description><![CDATA[Blog about Six Things Must To Do application]]></description><link>https://6-things-must-to-do.github.io/docs</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 06 Nov 2020 12:43:37 GMT</lastBuildDate><item><title><![CDATA[Six Things Must To Do]]></title><description><![CDATA[About STMT Six Things Must To Do is application for manage effective daily routine using Ivy Lee Method. Group Member…]]></description><link>https://6-things-must-to-do.github.io/docs/about/</link><guid isPermaLink="false">https://6-things-must-to-do.github.io/docs/about/</guid><pubDate>Fri, 06 Nov 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;About STMT&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[STMT]]></title><description><![CDATA[Blog about Six Things Must To Do application]]></description><link>https://6-things-must-to-do.github.io/docs</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 02 Dec 2020 06:02:28 GMT</lastBuildDate><item><title><![CDATA[Six Things Must To Do]]></title><description><![CDATA[About STMT Six Things Must To Do is application for manage effective daily routine using Ivy Lee Method. Group Member…]]></description><link>https://6-things-must-to-do.github.io/docs/about/</link><guid isPermaLink="false">https://6-things-must-to-do.github.io/docs/about/</guid><pubDate>Fri, 06 Nov 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;About STMT&lt;/h1&gt;
 &lt;p&gt;Six Things Must To Do is application for manage effective daily routine using &lt;a href=&quot;https://jamesclear.com/ivy-lee&quot;&gt;Ivy Lee Method&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Group Member&lt;/h2&gt;
 &lt;ul&gt;
@@ -144,4 +144,131 @@ On the other hand, our app not only stores past schedules on a daily basis, but 
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Methodology &amp;#x26; Dataset&lt;/h2&gt;
+&lt;p&gt;It used SKT’s NUGU AI speaker as a method of delivering commands.&lt;/p&gt;
+&lt;h3&gt;Technical Overview&lt;/h3&gt;
+&lt;p&gt;Voice recognition technology, combined with a variety of technologies, provides convenient services to customers and at the same time, expanding its scope by using customer response patterns.&lt;/p&gt;
+&lt;h3&gt;Cloud-based voice recognition&lt;/h3&gt;
+&lt;p&gt;Terminals such as mobile phones send data in a way of EPD (End Point Detector), voice capture and compression in streaming to the cloud server. Wake-up is with client. Since it must run for 24 hours and if wake-up is on the server, it will use our device’s data for 24 hours. Not only using the data we want but using all of them. Therefore, to send the data we want, wake-up should be in the client.
+Voice recognition service based on cloud sends the result to the device after the voice recognition is finished.&lt;/p&gt;
+&lt;h3&gt;SKT carries its own voice recognition&lt;/h3&gt;
+&lt;p&gt;Voice recognition learns DNN (Deep Neural Network) based on Acoustic Model and recognizes wFEST (weighted Finite State Transducer) base on Language Model. This method is the best for static. PLM (Personalized Language Model) is for dynamic and it can model personalized vocabulary to the place where it is going to be used before the voice input.&lt;/p&gt;
+&lt;h3&gt;Online Decoder development using SIMD (Single Instruction Multiple Data)&lt;/h3&gt;
+&lt;p&gt;By the fixed point optimization, computational optimization happened and the speed improved. Previously the respond time took 6 seconds and now it got faster to 0.7 seconds.&lt;/p&gt;
+&lt;h3&gt;Sequence to Sequence Learning, CTC&lt;/h3&gt;
+&lt;p&gt;Sequence to Sequence Learning applied n-best rescoring based on RNN-LSTM(Recurrent Neural Networks - Long Short-Term Memory models). Also extended RNN-LSTM to syllable based spacing models and applied CTC (Connectionist Temporal Classification) to pronunciation variants generator.
+Various DNN based technologies such as Wake-up, EPD, and speaker recognition are applied.&lt;/p&gt;
+&lt;h3&gt;Development of 4-channel voice pretreatment&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;AEC (Acoustic Echo Canceller)
+AEC gains voice recognition performance in a low SER (Standard Environmental Reference) environment. Also strengthen the long-tail control of acoustic transfer function by applying sub-block filter structure.&lt;/li&gt;
+&lt;li&gt;RES (Residual Echo Suppressor)
+RES suppresses the residual echo that was not captured in the AEC.&lt;/li&gt;
+&lt;li&gt;SSL (Sound Source Localizer)
+SSL predicts speaker direction information and enhances the responsiveness of wake-up towards utterance by applying noise and residual echo prediction.&lt;/li&gt;
+&lt;li&gt;Beam-former &amp;#x26; Post-filter
+Beam-former obtains voice without distortion by applying MVDR(Minimum Variance Distortionless Response) beamforming and has strengthen resolution by applying different filter constants by direction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Voice Recognition Architecture&lt;/h3&gt;
+&lt;p&gt;AI Speaker put speakers and microphones as far away as possible because there was a problem with echo cancellation when they were close together. SKT puts servers on AI Cloud and provides machine learning technologies and a variety of services. &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 610px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/docs/static/0d819a75c9f5093d110bb20a52fc289d/5aae9/voice-recognition-architecture.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 67.08860759493672%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABcSAAAXEgFnn9JSAAACE0lEQVQ4y2WT3XKbMBCFef/Hajt1nLhOSMAg2wgkISGB/5r2ljndFZBx0osdwSKd8+2uSHzo0fkA6xxc18GHEKPvBwQK/q5NF6O1Hr7vY24K2jcM2B+qMd8JUMiExVznSdDDtB55JrD99QYpDZwLMZ+mOzyuN6gb+2GyBJ+n3Hj7/c7rJMiuSrXIK4W0arCTCrWxKI8NtLYoihpZdkAlLRkEIp2iH05LREEykAm7cFIpA1FpiLrFkUhq5SCbFooE07TA8zaF2GscDg3yvKRVkVlLJjXqWo1ta6lCKxMugQVb6+AnfIS5HM7RpigiRAVJZo0iM1q17qgFCmW5p+/VKEmY9suES+CGK+3mxofYy2UQnGdxNuL2cDAA55Q2ZNKgafRoXTcJGuNpAJp6VJAjE3QwJhDRkfLUy8ZRTtNmOw+vixWwAVNl2Y4px2Mlp5KtZZpAZdgoxoRMzWQNDYppuWymYbF5qpGwP51xOl8wnC/j+5+/CMOJCOnA22uB9cMTXmllIee7KMICyyRZkHu6lPvl+oyX622aMguWZUXoJZUpI1Ho5579f/DTe5gvP9/DKwnOhHzPRKQpSvFBlee7+M7Pdwc/Cd0TRsHrTSbatFg/PqEUAqvVGodjFcv9uXrAZrPF8idxubx+JZ7/lvFE/fRMuPRouRLamHi/uGccfHEzov32/QeeX14+id6Jjzwc+ib/ATJWtypekLEyAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;architecture&quot;
+        title=&quot;architecture&quot;
+        src=&quot;/docs/static/0d819a75c9f5093d110bb20a52fc289d/5aae9/voice-recognition-architecture.png&quot;
+        srcset=&quot;/docs/static/0d819a75c9f5093d110bb20a52fc289d/c26ae/voice-recognition-architecture.png 158w,
+/docs/static/0d819a75c9f5093d110bb20a52fc289d/6bdcf/voice-recognition-architecture.png 315w,
+/docs/static/0d819a75c9f5093d110bb20a52fc289d/5aae9/voice-recognition-architecture.png 610w&quot;
+        sizes=&quot;(max-width: 610px) 100vw, 610px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;When the user speaks, the recording result from two microphones goes through an enhancement and the speech comes in through the audio recorder. First, distinguish whether wake-up is possible or not, then see if the signal is voice, divide the sound (by EPD), compress the part, transfer it to the server, and provide the user with the result.&lt;/p&gt;
+&lt;h3&gt;Voice Recognition API&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/docs/static/7ae46e7e9d43c890e77d078099545283/19ab6/table.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 83.54430379746836%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABYlAAAWJQFJUiTwAAACY0lEQVQ4y42UWWtiQRCF7/9/1SdfAuqLbwomikuMa9z3JSaKQoyGaIwLaozGGr4a2gnCMHOhuH3rdp+uOud0W+FwWHw+n9jtdrm+vpZIJKLx8PAgpVJJnE6nuN1uKZfL0ul0pFAoSLFY1LkOh0M8Ho/mmd/tdsUKBoNydXUlNptNXC6X3NzcSDqdlqenJ0mlUhKLxeT29lZzg8FAF3q9XolGo/qPOdVqVZ6fn2U2m4lVr9cVxO/3666VSkX6/b6Mx2PhH+PHx0dpNpvy9vYmvV5PksmkgjCXjTebjex2O5lOp2IxmSQLeVMBucPhIJfP9/e3NBoNBaR100GtVlPQj48PsegbkJ8B4Ofn5xmEOJ1OugmV3t3dyf39vbY5Go20mDMgiw2QAf8JCBDB8/X1JYvFQltfrVY6Z7/fnzt4f3//AwjYvwCPx6O0Wi1BSNqOx+MSCATUDev1+v9avqwQQMRCEMZYCF6ZP5/PxUIIAEywATkWXz4A53I5tRFAiURCPZvP55VLBYRkdmQXxrzb7bZyBD+mQgTZbrdqF9QFhGCDbDYrw+Hwtw9JYFQ8yBv1aBs+AMbQANAeuZeXF7UKHHLKQqGQcgkFCkh7RhAT5KgIu0wmE3l9fdVvKuUbD9JVJpPR4Bu6cMBfRcH5lw+gtEaLRgwUJjjP5wqNIKban6IYhY3JIR8AqEIUAmpYpz5ECHMueRtxlsulgiIMwRivAUiVHDdAAeekkMfwFmRDLFcYJgXQmJ28EQWx4I0jRkWIyH9z6yDY+XIw7ZrLgRsF8uEJICqmEqqgUqrnPy3iPYI8378A3na7Yq9J+28AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;table&quot;
+        title=&quot;table&quot;
+        src=&quot;/docs/static/7ae46e7e9d43c890e77d078099545283/f058b/table.png&quot;
+        srcset=&quot;/docs/static/7ae46e7e9d43c890e77d078099545283/c26ae/table.png 158w,
+/docs/static/7ae46e7e9d43c890e77d078099545283/6bdcf/table.png 315w,
+/docs/static/7ae46e7e9d43c890e77d078099545283/f058b/table.png 630w,
+/docs/static/7ae46e7e9d43c890e77d078099545283/40601/table.png 945w,
+/docs/static/7ae46e7e9d43c890e77d078099545283/78612/table.png 1260w,
+/docs/static/7ae46e7e9d43c890e77d078099545283/19ab6/table.png 1664w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;NUGU SDK&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/docs/static/3fc3f8e76bfa8cc316f4d058107cd4c6/169e3/nugusdk.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.46835443037975%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB5klEQVQoz0WSyXLaQBBA+f8fiQ9JqmLHK0sAC6FdaB9JI5kIO4DArnJ+4GU0HHJ4Na1S95uu7hmlWc7s15yVucaybIIg1LFtO9iOq+NnY8XasvA8H3N9yfNV3lB7fv/gdD4r3jWjXJSq0CPYRJooTtlECZbt4vkhfhgRJ5kipSgrskIgqpr2ZUtVS00tG0r1TzYNo7quSdMIIQpFTlUV1JXAdR3iKCCOByLC0FdFuc6RUmKsTL5cXXHz85av375zd/+AKEtGZe4TukuaZEydTBCpTZWuadMxVW6TJw5VPFNMSTYmZfLModtgqFH8uL5mPJlye3fPZDqjaV8YvW1j2sKgK57oKgNZl2ybgkMz50UYSmCwl3PeGou2qdjKiH7nq9EkzOcLFsulRjYt52GGh61HLx/pmymdmNOWDtvK4bxdsisekNENbXytOpyQqg5bYXLsPJI04/HxSYu73St/9geO/UkJfweqgzF9O+PUTpV4rDmqbylCijzmTa40ItvQyYD3V58sL1gslkq209s9HPuLMIk8XHNGkfkU6X9EFpCniiTQscjVxl2LZ9PEdH32SjB0tT8ctWgQXp5NVuCuHfUcKtJcqLMkV/GFUm2uVt1cTjdIMJyYdZBrQX86adnAcMHn51/+AZJAcsTaP6xPAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;nugusdk&quot;
+        title=&quot;nugusdk&quot;
+        src=&quot;/docs/static/3fc3f8e76bfa8cc316f4d058107cd4c6/f058b/nugusdk.png&quot;
+        srcset=&quot;/docs/static/3fc3f8e76bfa8cc316f4d058107cd4c6/c26ae/nugusdk.png 158w,
+/docs/static/3fc3f8e76bfa8cc316f4d058107cd4c6/6bdcf/nugusdk.png 315w,
+/docs/static/3fc3f8e76bfa8cc316f4d058107cd4c6/f058b/nugusdk.png 630w,
+/docs/static/3fc3f8e76bfa8cc316f4d058107cd4c6/40601/nugusdk.png 945w,
+/docs/static/3fc3f8e76bfa8cc316f4d058107cd4c6/78612/nugusdk.png 1260w,
+/docs/static/3fc3f8e76bfa8cc316f4d058107cd4c6/169e3/nugusdk.png 1682w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;NUGU SDK supports Android, iOS, and Linux platforms. To simplify, it
+receives audio input through recorder, then use wake-up, and EPD to deliver
+voice recognition result. Voice recognition device in cloud service, and TTS
+is available to use.&lt;/p&gt;</content:encoded></item></channel></rss>
