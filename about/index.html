@@ -122,13 +122,13 @@ Voice recognition service based on cloud sends the result to the device after th
 Various DNN based technologies such as Wake-up, EPD, and speaker recognition are applied.</p>
 <h3>Development of 4-channel voice pretreatment</h3>
 <ul>
-<li>AEC (Acoustic Echo Canceller)
+<li>AEC (Acoustic Echo Canceller)<br>
 AEC gains voice recognition performance in a low SER (Standard Environmental Reference) environment. Also strengthen the long-tail control of acoustic transfer function by applying sub-block filter structure.</li>
-<li>RES (Residual Echo Suppressor)
+<li>RES (Residual Echo Suppressor)<br>
 RES suppresses the residual echo that was not captured in the AEC.</li>
-<li>SSL (Sound Source Localizer)
+<li>SSL (Sound Source Localizer)<br>
 SSL predicts speaker direction information and enhances the responsiveness of wake-up towards utterance by applying noise and residual echo prediction.</li>
-<li>Beam-former &#x26; Post-filter
+<li>Beam-former &#x26; Post-filter<br>
 Beam-former obtains voice without distortion by applying MVDR(Minimum Variance Distortionless Response) beamforming and has strengthen resolution by applying different filter constants by direction</li>
 </ul>
 <h3>Voice Recognition Architecture</h3>

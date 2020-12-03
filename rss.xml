@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[STMT]]></title><description><![CDATA[Blog about Six Things Must To Do application]]></description><link>https://6-things-must-to-do.github.io/docs</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 02 Dec 2020 06:39:20 GMT</lastBuildDate><item><title><![CDATA[Six Things Must To Do]]></title><description><![CDATA[About STMT Six Things Must To Do is application for manage effective daily routine using Ivy Lee Method. Group Member…]]></description><link>https://6-things-must-to-do.github.io/docs/about/</link><guid isPermaLink="false">https://6-things-must-to-do.github.io/docs/about/</guid><pubDate>Fri, 06 Nov 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;About STMT&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[STMT]]></title><description><![CDATA[Blog about Six Things Must To Do application]]></description><link>https://6-things-must-to-do.github.io/docs</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 03 Dec 2020 08:10:15 GMT</lastBuildDate><item><title><![CDATA[Six Things Must To Do]]></title><description><![CDATA[About STMT Six Things Must To Do is application for manage effective daily routine using Ivy Lee Method. Group Member…]]></description><link>https://6-things-must-to-do.github.io/docs/about/</link><guid isPermaLink="false">https://6-things-must-to-do.github.io/docs/about/</guid><pubDate>Fri, 06 Nov 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;About STMT&lt;/h1&gt;
 &lt;p&gt;Six Things Must To Do is application for manage effective daily routine using &lt;a href=&quot;https://jamesclear.com/ivy-lee&quot;&gt;Ivy Lee Method&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Group Member&lt;/h2&gt;
 &lt;ul&gt;
@@ -119,13 +119,13 @@ Voice recognition service based on cloud sends the result to the device after th
 Various DNN based technologies such as Wake-up, EPD, and speaker recognition are applied.&lt;/p&gt;
 &lt;h3&gt;Development of 4-channel voice pretreatment&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;AEC (Acoustic Echo Canceller)
+&lt;li&gt;AEC (Acoustic Echo Canceller)&lt;br&gt;
 AEC gains voice recognition performance in a low SER (Standard Environmental Reference) environment. Also strengthen the long-tail control of acoustic transfer function by applying sub-block filter structure.&lt;/li&gt;
-&lt;li&gt;RES (Residual Echo Suppressor)
+&lt;li&gt;RES (Residual Echo Suppressor)&lt;br&gt;
 RES suppresses the residual echo that was not captured in the AEC.&lt;/li&gt;
-&lt;li&gt;SSL (Sound Source Localizer)
+&lt;li&gt;SSL (Sound Source Localizer)&lt;br&gt;
 SSL predicts speaker direction information and enhances the responsiveness of wake-up towards utterance by applying noise and residual echo prediction.&lt;/li&gt;
-&lt;li&gt;Beam-former &amp;#x26; Post-filter
+&lt;li&gt;Beam-former &amp;#x26; Post-filter&lt;br&gt;
 Beam-former obtains voice without distortion by applying MVDR(Minimum Variance Distortionless Response) beamforming and has strengthen resolution by applying different filter constants by direction&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Voice Recognition Architecture&lt;/h3&gt;
