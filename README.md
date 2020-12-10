@@ -1,4 +1,4 @@
-# 6 Things Must To Do (STMT)
+# STMT (6 Things Must TODO)
 
 ## Overall Architecture
 
