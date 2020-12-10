@@ -9,53 +9,55 @@
 <li>한양대학교 정보시스템학과 김정은 wjddms04@hanyang.ac.kr</li>
 <li>한양대학교 정보시스템학과 김은채 eunchai512@naver.com</li>
 </ul>
+<hr>
 <h2>Proposal</h2>
-<p>More and more people are complaining of difficulties in managing their time as the recent unprecedented situation of Corona-19 has limited outside activities and increased freedom of work. As work spaces and daily spaces become one, one is often interrupted by another.</p>
+<p>More and more people are complaining of difficulties in managing their time as the recent unprecedented situation of COVID-19 has limited outside activities and increased freedom of work. As work spaces and daily spaces become one, one is often interrupted by another.</p>
 <p>Because human attraction and working memory are limited, it is virtually impossible to do multiple tasks at once. Therefore, doing a lot of multitasking means that self-interruptions and voluntary switching of tasks are often repeated. A study conducted in 2009 at the National Academy of Sciences of the United States shows that doing a lot of multitasking does not help the ability to switch tasks, but rather has a negative correlation.[*]</p>
 <p>Ivy Lee method defines six things to do during working hours and forces the sequence of work to be done, making the routine a single task, not a multi-task. Our app makes it easy for people to apply and practice the Ivy Lee method. By taking advantage of this, people will be able to propose and practice ways to improve time efficiency beyond mannerism in their daily lives.</p>
 <blockquote>
-<p>[*] Eyal Ophir, Clifford Nass, Anthony D. Wagner and Michael I. Posner (2009). Cognitive control in media multitaskers, Proceedings of the National Academy of Sciences of the United States of America, 106, 15583-15587.</p>
+<p><small> [*] Eyal Ophir, Clifford Nass, Anthony D. Wagner and Michael I. Posner (2009). Cognitive control in media multitaskers, Proceedings of the National Academy of Sciences of the United States of America, 106, 15583-15587. </small></p>
 </blockquote>
+<hr>
 <h2>Service Architecture</h2>
 <h3>Mobile Application</h3>
 <ol>
-<li>Login:
+<li>Login<br>
 Login screen is the first screen that users can see when they are not logged in to our application. User can login through their Google account. The button will lead the users to the Google login service, and our server will receive their information from Google. If the user is already logged in, the screen will show the main page immediately.</li>
 <li>
-<p>Main Screen
+<p>Main Screen<br>
 Progress bar is on the top of the main screen. The colored part is the percentage of the tasks that is done by the user each day. Task lock and dashboard buttons are on the right and add button will be the only thing that users can click, if users did not set any tasks. Add button will disappear when users set six tasks, which is the maximum. They can make tasks by the add button and set specific details.</p>
 <ul>
-<li>Task Detail
-When the user clicks the add button or the task itself, the screen will turn into specific tasks screen. Users can set the starting time, set the place where the task is going to be executed, and make detailed notes to each task. To-do list is also included in each task so that users can set a more detailed tasks.</li>
-<li>Dashboard
+<li>Task Detail<br>
+When the user clicks the add button or the task itself, the screen will turn into specific tasks screen. Users can set the starting time, set the place where the task is going to be executed, and make detailed notes to each task. To-do list is also included in each task so that users can set a more detailed task.</li>
+<li>Dashboard<br>
 Dashboard shows the result of finishing the task in a bar graph. By clicking the graph or the day itself, they can select a date to view the results of the day, and the previous list of six tasks will be shown to the users. Previous tasks are viewed exactly like the tasks on the main screen.</li>
 </ul>
 </li>
 <li>
-<p>Social
+<p>Social<br>
 In the social screen, there is a bar where users can search for their friend’s name and their task results, and an add button to add friends using google email. When users press the tab, they can take turns looking at the list of their friends or the list of other users who use this application, so the list looks different depending on the tab. Users can also share their results externally with the share button.</p>
 <ul>
-<li>Search friends bar
+<li>Search friends bar<br>
 Users can search their friends by typing the name of their friends in the bar. Then the screen will show the list of the name that users have entered.</li>
-<li>Add friends
-Add icon on the right side of the bar is a button that can add friends to the friends list. When the button is clicked, a small sized screen will pop up and ask the user to enter friend’s google e-mail address. Then a friend who has the exact e-mail account appears, and the user can click to add the friend to the friends list. However, if the user enters an e-mail address that does not exist, nothing comes up.</li>
-<li>List categories
+<li>Add friends<br>
+Add icon on the right side of the bar is a button that can add friends to the friends list. When the button is clicked, the screen will turn into Search user screen. User can enter friend’s google e-mail address to add to a friend list. However, if the user enters an e-mail address that does not exist, nothing comes up. Following and follower are shown through this screen.</li>
+<li>List categories<br>
 Tab is divided into two categories: Friends, All. Users can press friends tab to see the list of friends or press all tab to see the ranking of all the users who are using our application.</li>
-<li>Friends list
+<li>Friends list<br>
 The list gives three information: rank, name, and percentage(score). Users can see the ranking by comparing themselves to the others. Percentage is for the ranking and is the sum of the percentage that users have completed the task. If there are users with the same score, they just go in order.</li>
-<li>Share results
+<li>Share results<br>
 Share button at the bottom of the list is a feature that allows users to share their results externally. If they press the button, they can choose where to share, and then the ranking screen will be shared as a photo.</li>
 </ul>
 </li>
 <li>
-<p>Settings
+<p>Settings<br>
 There are four features in Settings Screen: Update user, Task related setting, Logout, and Clear cache.</p>
 <ul>
-<li>Update User
+<li>Update User<br>
 Users can modify their nickname by pressing Update user. In addition, they can set whether they want to expose their records or not. Users can make three choices: 1. Show their records to everyone. 2. Show their records only to their friends. 3. Don’t expose their records at all. Depending on the user, their records may or may not be seen by others.</li>
-<li>Task Related Setting
+<li>Task Related Setting<br>
 Task related setting can set the alert time and the task lock time. When the user set the alert time, the alarm will ring at that specific time every day. This gives users who have forgotten to work on their tasks a chance to remind them once more. If task lock time setting is set by the user and then the task is locked, the user cannot modify the task during the locked time, and the daily record will be stored based on the task lock time, which is used to score users in the list of social screens.</li>
-<li>Logout and Clear cache
+<li>Logout and Clear cache<br>
 Logout makes user log out the application. Clear cache does the same thing, but at the same time, clears application cache.</li>
 </ul>
 </li>
@@ -67,8 +69,8 @@ Logout makes user log out the application. Clear cache does the same thing, but 
 User can look up which task they are on and the name of it. </li>
 <li>Complete the task<br>
 Task will be completed when the user completes the task by the speaker.</li>
-<li>Cancel the task<br>
-Users can cancel the task when they think it is unavailable to complete. Then the task will be canceled, and the next task will be ready to proceed.</li>
+<li>Check the detailed task<br>
+User can check the detailed task. NUGU responds to-do list inside the ongoing task to the user.</li>
 <li>Check the remain tasks<br>
 NUGU tells the user how many tasks are left and explains what number the next task is and what it is.</li>
 </ol>
@@ -79,33 +81,32 @@ NUGU tells the user how many tasks are left and explains what number the next ta
     >
       <a
     class="gatsby-resp-image-link"
-    href="/docs/static/41bc83e2f5395d27d2edbdca9854b993/6568d/utterance.png"
+    href="/docs/static/4b24f650d43b9c34d380a78863e96c30/9d76a/utterance.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-background-image"
-    style="padding-bottom: 46.202531645569614%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABYlAAAWJQFJUiTwAAABWklEQVQoz1WRV44CQQxE+/63QVwB+AGGnIYMQ04zZJBQrZ6lbmk/SnbbbrtcdrlcTsViUZ1OR/l8XoVCQZPJRPP5XNPpNICY98/nc8DpdNLhcAhwzWbTnM1mo263q36/L2KNRkO9Xs/QbrctXiqVLMew0Wik8Xis9Xqtx+MR4ChaLBaazWaqVCpqtVqq1Wqq1+vWqFqtKo5jrVYrJUkSsFwuDcSPx6N2u532+70cyefzqcvl8m89VvHrkINJlmXWgFWJ0Ygm+Nvt1urdYDCwQj6wThRFxogCptIAJp/PR6/Xy/B+v4MPIOTjDq3QD6YcZjgc2rpoh0boil4M8dJAAssfvxU+NQ7Kv9/PGNGMddGRIff7XdfrVbfbzez3+zUWAMa8sby978rlchAUhkwHXJUBsIMtNk1T0wtd8dEMHb2ekHIk6YyFHXrCyAsPMz4zlJj3fRN/NCx3+ANO/ZWHs+tR1QAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    style="padding-bottom: 62.0253164556962%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABJ0AAASdAHeZh94AAABV0lEQVQoz53S54rEMAwEYL//G27vm+29sQUdn8Eht3B/LjBIkWVpNHLqdrsxmUzieDxGq9WK4XCY0el0otfrxWg0itPpFO/3O16vV8bz+az9b6Tr9ZqTL5dLDAaDmM1mMZ1Oo6qqXIy/Xq9js9nkM/HdbpdtyXU+n8+zTbr5brdbHZRc4BL2imy324z9fl//s82z5EJJaLfb0e/361H9803xeDzifr//st8QT+PxODPBQjEsgU9L+jo3Mn+1WsVyuYzFYlH7rHOkEnbGVlAhXTCiKRn4xP58PtnSG9xp2pKTjKSzwjZr67bNx9KiNMKoyYxe5Z+lPZsOh0NmhZGL7Pl8zvBcsNRMnilYcXn85hlkDVX3g41nIIa17nxjawoagCWUN9lEHlkRXS3B1ovQluEMc3Ex29esTFYaFCRFXECdfopg/NezaPrfxXJBnYoGhC7rp9F/8AOLvYwj6U0cEgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
   ></span>
   <img
         class="gatsby-resp-image-image"
         alt="utterance"
         title="utterance"
-        src="/docs/static/41bc83e2f5395d27d2edbdca9854b993/f058b/utterance.png"
-        srcset="/docs/static/41bc83e2f5395d27d2edbdca9854b993/c26ae/utterance.png 158w,
-/docs/static/41bc83e2f5395d27d2edbdca9854b993/6bdcf/utterance.png 315w,
-/docs/static/41bc83e2f5395d27d2edbdca9854b993/f058b/utterance.png 630w,
-/docs/static/41bc83e2f5395d27d2edbdca9854b993/40601/utterance.png 945w,
-/docs/static/41bc83e2f5395d27d2edbdca9854b993/78612/utterance.png 1260w,
-/docs/static/41bc83e2f5395d27d2edbdca9854b993/6568d/utterance.png 1660w"
+        src="/docs/static/4b24f650d43b9c34d380a78863e96c30/f058b/utterance.png"
+        srcset="/docs/static/4b24f650d43b9c34d380a78863e96c30/c26ae/utterance.png 158w,
+/docs/static/4b24f650d43b9c34d380a78863e96c30/6bdcf/utterance.png 315w,
+/docs/static/4b24f650d43b9c34d380a78863e96c30/f058b/utterance.png 630w,
+/docs/static/4b24f650d43b9c34d380a78863e96c30/9d76a/utterance.png 829w"
         sizes="(max-width: 630px) 100vw, 630px"
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
         loading="lazy"
       />
   </a>
     </span></p>
-<p>In the final stage, NUGU answers back the task content as many tasks as user have left. </p>
+<p>For checking the list of the tasks, NUGU answers back the task content as many tasks as user have left.</p>
+<hr>
 <h2>Methodology &#x26; Dataset</h2>
 <p>It used SKT’s NUGU AI speaker as a method of delivering commands.</p>
 <h3>Technical Overview</h3>
@@ -233,6 +234,7 @@ Beam-former obtains voice without distortion by applying MVDR(Minimum Variance D
 receives audio input through recorder, then use wake-up, and EPD to deliver
 voice recognition result. Voice recognition device in cloud service, and TTS
 is available to use.</p>
+<hr>
 <h2>Related works &#x26; tools</h2>
 <p>Efforts to manage time or organize to-do lists are old and countless apps and programs already exist. However, we have found that there are not many cases where specific management techniques have been applied, such as 6 things must to do, and in particular, the software used by actual users in the Ivy Lee method seems to be ‘6things’, ‘Ivy: Tasks &#x26; To-Do list, organize your life’.</p>
 <p><span
@@ -265,7 +267,7 @@ is available to use.</p>
       />
   </a>
     </span></p>
-<p>6tings is an iOS app with Ivy Lee method and features a simple and clear interface. Each day, the user organizes six things to do before and after bed and prioritizes them according to their importance. Although the app is very faithful to the Ivy Lee method, there were inconveniences such as not having a separate storage function and not being able to see the completed work again. There was also a problem that they could not provide time to look back on whether they had followed the Ivy Lee method well.
+<p>6things is an iOS app with Ivy Lee method and features a simple and clear interface. Each day, the user organizes six things to do before and after bed and prioritizes them according to their importance. Although the app is very faithful to the Ivy Lee method, there were inconveniences such as not having a separate storage function and not being able to see the completed work again. There was also a problem that they could not provide time to look back on whether they had followed the Ivy Lee method well.
 On the other hand, our app not only stores past schedules on a daily basis, but also provides a dashboard of performance.</p>
 <p><span
       class="gatsby-resp-image-wrapper"
