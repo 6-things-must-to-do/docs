@@ -56,13 +56,13 @@ STMT는 사용자가 시간 관리와 매너리즘에서 벗어날 수 있도록
 
 **2.3 기록 확인**
 
-<img src="./images/usage04.jpeg" width="250px">
+<img src="./images/usage04.png" width="250px">
 
 메인 화면 우측 상단 그래프 버튼을 누르면 날마다 설정한 업무와 완료율을 확인 할 수 있다. 이 완료율은 소셜 화면에서 순위를 매길 때 사용된다.
 
 **3.1 소셜 화면**
 
-<img src="./images/usage05.jpeg" width="250px">
+<img src="./images/usage05.png" width="250px">
 
 친구 리스트와 순위를 확인할 수 있다. 순위는 완료율에 따라서 결정된다.
 
