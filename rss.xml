@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[STMT]]></title><description><![CDATA[Blog about Six Things Must TODO application]]></description><link>https://6-things-must-to-do.github.io/docs</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 10 Dec 2020 09:08:54 GMT</lastBuildDate><item><title><![CDATA[Six Things Must TODO]]></title><description><![CDATA[About STMT Six Things Must TODO (STMT) is application for manage effective daily routine using Ivy Lee Method. Group Member…]]></description><link>https://6-things-must-to-do.github.io/docs/about/</link><guid isPermaLink="false">https://6-things-must-to-do.github.io/docs/about/</guid><pubDate>Fri, 06 Nov 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;About STMT&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[STMT]]></title><description><![CDATA[Blog about Six Things Must TODO application]]></description><link>https://6-things-must-to-do.github.io/docs</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 13 Dec 2020 08:33:23 GMT</lastBuildDate><item><title><![CDATA[Six Things Must TODO]]></title><description><![CDATA[About STMT Six Things Must TODO (STMT) is application for manage effective daily routine using Ivy Lee Method. Group Member…]]></description><link>https://6-things-must-to-do.github.io/docs/about/</link><guid isPermaLink="false">https://6-things-must-to-do.github.io/docs/about/</guid><pubDate>Fri, 06 Nov 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;About STMT&lt;/h1&gt;
 &lt;p&gt;Six Things Must TODO (STMT) is application for manage effective daily routine using &lt;a href=&quot;https://jamesclear.com/ivy-lee&quot;&gt;Ivy Lee Method&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Group Member&lt;/h2&gt;
 &lt;ul&gt;
@@ -32,7 +32,7 @@ Dashboard shows the result of finishing the task in a bar graph. By clicking the
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Social&lt;br&gt;
-In the social screen, there is a bar where users can search for their friend’s name and their task results, and an add button to add friends using google email. When users press the tab, they can take turns looking at the list of their friends or the list of other users who use this application, so the list looks different depending on the tab. Users can also share their results externally with the share button.&lt;/p&gt;
+In the social screen, there is a bar where users can search for their friend’s name and their task results, and an add button to add friends using google email. When users press the tab, they can take turns looking at the list of their friends or the list of other users who use this application, so the list looks different depending on the tab.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Search friends bar&lt;br&gt;
 Users can search their friends by typing the name of their friends in the bar. Then the screen will show the list of the name that users have entered.&lt;/li&gt;
@@ -42,8 +42,6 @@ Add icon on the right side of the bar is a button that can add friends to the fr
 Tab is divided into two categories: Friends, All. Users can press friends tab to see the list of friends or press all tab to see the ranking of all the users who are using our application.&lt;/li&gt;
 &lt;li&gt;Friends list&lt;br&gt;
 The list gives three information: rank, name, and percentage(score). Users can see the ranking by comparing themselves to the others. Percentage is for the ranking and is the sum of the percentage that users have completed the task. If there are users with the same score, they just go in order.&lt;/li&gt;
-&lt;li&gt;Share results&lt;br&gt;
-Share button at the bottom of the list is a feature that allows users to share their results externally. If they press the button, they can choose where to share, and then the ranking screen will be shared as a photo.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -78,24 +76,24 @@ NUGU tells the user how many tasks are left and explains what number the next ta
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/docs/static/4b24f650d43b9c34d380a78863e96c30/9d76a/utterance.png&quot;
+    href=&quot;/docs/static/a18e487f52cd1e3268503ebf999083bc/1cfc2/utterance.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 62.0253164556962%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABJ0AAASdAHeZh94AAABV0lEQVQoz53S54rEMAwEYL//G27vm+29sQUdn8Eht3B/LjBIkWVpNHLqdrsxmUzieDxGq9WK4XCY0el0otfrxWg0itPpFO/3O16vV8bz+az9b6Tr9ZqTL5dLDAaDmM1mMZ1Oo6qqXIy/Xq9js9nkM/HdbpdtyXU+n8+zTbr5brdbHZRc4BL2imy324z9fl//s82z5EJJaLfb0e/361H9803xeDzifr//st8QT+PxODPBQjEsgU9L+jo3Mn+1WsVyuYzFYlH7rHOkEnbGVlAhXTCiKRn4xP58PtnSG9xp2pKTjKSzwjZr67bNx9KiNMKoyYxe5Z+lPZsOh0NmhZGL7Pl8zvBcsNRMnilYcXn85hlkDVX3g41nIIa17nxjawoagCWUN9lEHlkRXS3B1ovQluEMc3Ex29esTFYaFCRFXECdfopg/NezaPrfxXJBnYoGhC7rp9F/8AOLvYwj6U0cEgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 86.0759493670886%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAARCAYAAADdRIy+AAAACXBIWXMAABJ0AAASdAHeZh94AAACcklEQVQ4y41Ua2/TQBD0//8f/cQHJAQSIhSoAk0CaaBpIX41fsZx4sR5x3mYDDdLz60Qolha7a3vbnZmd23j2asWzl58xssLC2fP66i1fNSaPt62AvGvP93h3ZfoSTtXVu+EMK5ME7VGA5YfwHZc+EGEKE7g3nkIwlitB1hvCmy2u3/atthjuVzD6LomPrQbMD0XtmUhDEMMhwlGoxHm8xnK8ojDYY/9/sF+xzsxvXc4HLBeC+B3BViHlwRYrVYCFAQBxuOxrMdZJknSNJV4OByqOJL97H4vSRKx6XQKw8968PNbjOYh+BCUm1EUCQjX/X5fAOI4FsDBYFCBc/34nQI0Ecx6SGcPgMzKAwRl1s1mg+12i8Vioeq0FGk8N5/P5R1j+jzPYXhjWzG0kOQh9rs9JpOJgJENPS/xIP1Tz/F4hPHNdlSXm3Aj1dEohOd5Qp1MZrOZMGQSgpIFgWncZ0ymmjnfG2Z0jSv7I+LMQ3ksFVgq7CiDYKwjgWkEpbEZjOkJxoRaiaqhhXjlYqgkE5CH2Ahu8hLrR2Be/NtzOp2qNcdHJJ83W7DVqBBIjwwzEkgD01MWJWqjCt0gLd0wwxu0rUtEma+KWmIynUh3CcoDZKzrQ/nVfCrPJLosjCndCKcWBisLo0WE08+TXORcEYhZi6KoRuO/unxtu7hod9SnpySrMfF9XwC1ZN1pstHzSM8E9I9NJPeCLlo/6iJ5V+yEuv6cKIVrdp0+uK+z4ziioCxLYUXjmmpUDV18dW8RpDHyaV7Vixf0QJMhE+lRYax/CNoISpZGx+zizeV7JdmB1/eqj57ZKE+bjrX/U67+NH8BnUH5w65WsAEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;utterance&quot;
         title=&quot;utterance&quot;
-        src=&quot;/docs/static/4b24f650d43b9c34d380a78863e96c30/f058b/utterance.png&quot;
-        srcset=&quot;/docs/static/4b24f650d43b9c34d380a78863e96c30/c26ae/utterance.png 158w,
-/docs/static/4b24f650d43b9c34d380a78863e96c30/6bdcf/utterance.png 315w,
-/docs/static/4b24f650d43b9c34d380a78863e96c30/f058b/utterance.png 630w,
-/docs/static/4b24f650d43b9c34d380a78863e96c30/9d76a/utterance.png 829w&quot;
+        src=&quot;/docs/static/a18e487f52cd1e3268503ebf999083bc/f058b/utterance.png&quot;
+        srcset=&quot;/docs/static/a18e487f52cd1e3268503ebf999083bc/c26ae/utterance.png 158w,
+/docs/static/a18e487f52cd1e3268503ebf999083bc/6bdcf/utterance.png 315w,
+/docs/static/a18e487f52cd1e3268503ebf999083bc/f058b/utterance.png 630w,
+/docs/static/a18e487f52cd1e3268503ebf999083bc/1cfc2/utterance.png 900w&quot;
         sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -363,4 +361,8 @@ On the other hand, our app not only stores past schedules on a daily basis, but 
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
+    &lt;/span&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;h3&gt;Presentation &amp;#x26; Demo&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=oHk4ebIAX-M&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/oHk4ebIAX-M/0.jpg&quot; alt=&quot;Presentation&quot;&gt;&lt;/a&gt;  &lt;/p&gt;</content:encoded></item></channel></rss>
