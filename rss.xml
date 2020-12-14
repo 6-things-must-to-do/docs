@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[STMT]]></title><description><![CDATA[Blog about Six Things Must TODO application]]></description><link>https://6-things-must-to-do.github.io/docs</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 13 Dec 2020 08:33:23 GMT</lastBuildDate><item><title><![CDATA[Six Things Must TODO]]></title><description><![CDATA[About STMT Six Things Must TODO (STMT) is application for manage effective daily routine using Ivy Lee Method. Group Member…]]></description><link>https://6-things-must-to-do.github.io/docs/about/</link><guid isPermaLink="false">https://6-things-must-to-do.github.io/docs/about/</guid><pubDate>Fri, 06 Nov 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;About STMT&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[STMT]]></title><description><![CDATA[Blog about Six Things Must TODO application]]></description><link>https://6-things-must-to-do.github.io/docs</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 14 Dec 2020 07:16:14 GMT</lastBuildDate><item><title><![CDATA[Six Things Must TODO]]></title><description><![CDATA[About STMT Six Things Must TODO (STMT) is application for manage effective daily routine using Ivy Lee Method. Group Member…]]></description><link>https://6-things-must-to-do.github.io/docs/about/</link><guid isPermaLink="false">https://6-things-must-to-do.github.io/docs/about/</guid><pubDate>Fri, 06 Nov 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;About STMT&lt;/h1&gt;
 &lt;p&gt;Six Things Must TODO (STMT) is application for manage effective daily routine using &lt;a href=&quot;https://jamesclear.com/ivy-lee&quot;&gt;Ivy Lee Method&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Group Member&lt;/h2&gt;
 &lt;ul&gt;
@@ -364,5 +364,9 @@ On the other hand, our app not only stores past schedules on a daily basis, but 
     &lt;/span&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;All the key parts of Ivy Lee Method have been implemented.&lt;/li&gt;
+&lt;li&gt;It would be better if we designed it to share more functions with NUGU speakers.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3&gt;Presentation &amp;#x26; Demo&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=oHk4ebIAX-M&quot;&gt;&lt;img src=&quot;https://img.youtube.com/vi/oHk4ebIAX-M/0.jpg&quot; alt=&quot;Presentation&quot;&gt;&lt;/a&gt;  &lt;/p&gt;</content:encoded></item></channel></rss>
